@@ -10,7 +10,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-const MAX_SIZE_BYTES = 50 * 1024 * 1024; // 50MB
+const MAX_SIZE_BYTES = 100 * 1024 * 1024; // 100MB
 const ACCEPTED_MIME = ["video/mp4", "video/webm"];
 
 export async function POST(request) {
@@ -26,7 +26,7 @@ export async function POST(request) {
       return NextResponse.json({ error: "Please upload an MP4 or WebM video" }, { status: 400 });
     }
     if (file.size > MAX_SIZE_BYTES) {
-      return NextResponse.json({ error: "File is too large — please keep it under 50MB" }, { status: 400 });
+      return NextResponse.json({ error: "File is too large — please keep it under 100MB" }, { status: 400 });
     }
 
     const bytes = await file.arrayBuffer();
