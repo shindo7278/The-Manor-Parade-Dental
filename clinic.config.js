@@ -1,52 +1,40 @@
-// ============================================================
-// clinic.config.js
-// ============================================================
-
 export const clinic = {
-  // ── الاسم ────────────────────────────────────────────────
-  name: "Ware Dental Care",
-  shortName: "Ware Dental",
+  name: "Manor Parade Dental & Cosmetic Clinic",
+  shortName: "Manor Parade Dental",
 
-  // ── التواصل ──────────────────────────────────────────────
-  phone: "01920 462208",
-  phoneTel: "+441920462208",
-  email: "waredentalcare@btconnect.com",
-  emailFrom: "noreply@waredentalcare.co.uk",
+  phone: "01206 305080",
+  phoneTel: "+441206305080",
+  email: "manorparadedental@gmail.com",
+  emailFrom: "noreply@manorparadedental.co.uk",
 
-  // ── العنوان ──────────────────────────────────────────────
   address: {
-    street: "3 West Street",
-    city: "Ware",
-    county: "Hertfordshire",
-    postcode: "SG12 9EE",
+    street: "Park Drive",
+    city: "Brightlingsea",
+    county: "Essex",
+    postcode: "CO7 0UD",
     country: "GB",
-    full: "3 West Street, Ware, Hertfordshire, SG12 9EE",
+    full: "Park Drive, Brightlingsea, Essex, CO7 0UD",
   },
 
-  // ── الموقع الجغرافي ───────────────────────────────────────
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=3%20West%20Street%20Ware%20Hertfordshire%20SG12%209EE&t=m&z=15&output=embed",
+    "https://maps.google.com/maps?q=Park%20Drive%20Brightlingsea%20Essex%20CO7%200UD&t=m&z=15&output=embed",
 
-  // ── السوشيال ميديا ────────────────────────────────────────
   social: {
     facebook: "#",
     instagram: "#",
   },
 
-  // ── الموقع الإلكتروني ─────────────────────────────────────
-  siteUrl: "https://www.waredentalcare.co.uk",
+  siteUrl: "https://www.manorparadedental.co.uk",
 
-  // ── التقييمات ─────────────────────────────────────────────
   reviews: {
-    rating: "4.2",
-    count: 82,
+    rating: "4.3",
+    count: 0,
   },
 
-  // ── SEO ──────────────────────────────────────────────────
   seo: {
-    defaultTitle: "Ware Dental Care — Dentist in Ware, Hertfordshire",
+    defaultTitle: "Manor Parade Dental & Cosmetic Clinic — Dentist in Brightlingsea, Essex",
     defaultDescription:
-      "Established family dental practice on West Street, Ware. General, advanced and specialist dental care for the whole family for over 60 years.",
-    tagline: "Trusted family dental care in the heart of Ware, Hertfordshire.",
+      "Family dental and cosmetic clinic in Brightlingsea, Essex. NHS and private treatments for the whole family.",
+    tagline: "Your local dental and cosmetic clinic in Brightlingsea, Essex.",
   },
 };
